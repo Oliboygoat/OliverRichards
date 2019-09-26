@@ -32,5 +32,7 @@ body{
 
 
 /* start of contact us style */
-
+p.contacttitle{
+  font-size: 150%;
+}
 /* end of contact us style */
