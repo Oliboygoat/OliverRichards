@@ -18,6 +18,13 @@ h1.home{
 
 
 /* start of our story style */
+h1.title{
+  color: black;
+  font-size: 200%;
+  text-align: center;
+  font-family: "Helvetica", cursive, sans-serif;
+  
+  
 ul {
   list-style-type: none;
   margin: 0;
