@@ -9,7 +9,9 @@ body{
 
 
 /* start of home style */
-
+h1.home{
+  color: pink;
+}
 /* end of home style */
 
 
