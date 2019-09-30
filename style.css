@@ -106,5 +106,10 @@ li.dropdown {
 
 
 /* start of contact us style */
-
+body{
+background-color: white;
+font-size: 175%
+}
+body{ background-image: "photo.jpg";
+}
 /* end of contact us style */
