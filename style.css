@@ -24,18 +24,27 @@ h1.title{
   text-align: center;
   font-family: "Helvetica", cursive, sans-serif;
   
-  
-ul {
+  ul.nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  position: fixed;
   background-color: #333;
+  width: 100%;
 }
 
-li {
-  float: left;
+li.links{
+  display: inline;
+  padding-right: 10%;
+  font-size: 50px;
+float: left;
+
+
+
 }
+
+
+
 
 li a, .dropbtn {
   display: inline-block;
@@ -46,7 +55,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: white;
 }
 
 li.dropdown {
@@ -75,23 +84,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
-</head>
-<body>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </li>
-</ul>
-/* end of our story style style */
+
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+  
+  
+ /story style style */
 
 
 
@@ -110,6 +113,6 @@ body{
 background-color: white;
 font-size: 175%
 }
-body{ background-image: "photo.jpg";
+body{ background-image: "photo.jpg"
 }
 /* end of contact us style */
