@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Kid Flips </title>
+  </head>
+  <body>
+
+    <!-- top of body -->
+<!-- nav bar -->
+<ul class="nav">
+</ul>
+
+
+<!-- nav bar -->
+
+
+    <h1 class="kids">Kids Flips</h1>
+
+
+
+    <div class="parallax">
+    </div>
+
+    <div> <h1 class="Parallaxtext"><p> The Flips Project is a program that began with a mission to make the joy of Gymnastics accessible to
+    financially challenged Families in Central Oregon. Boys and girls ages 6-10 can bounce around during a
+    class one hour a week for an 8 week session at OOA Gymnastics. The Class is taught by high school
+    volunteers that have been involved in gymnastics themselves. Kids will get to learn balance, agility, and
+    body awareness as well as fun tricks on Bault, Bars, Beam, Floor, and Tramp. Come join us for some fun,
+    movement education, and beginning gymnastics!</p> </h1> </div>
+
+
+
+    <!-- This div container holds all of the slideshow code -->
+    <div class="slideshow-container">
+      <!-- Each image gets its own div container -->
+      <div class="mySlides fade">
+        <img src="loose.png" style="width:100%">
+        <div class="text"> My Gymastics team </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="noose.png" style="width:100%">
+        <div class="text"> Me </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="goose.png" style="width:100%">
+        <div class="text"> Me doing a backflip </div>
+      </div>
+
+    </div>
+
+
+    <!-- This javascript makes the slideshow move -->
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      // Determines how many images are going to be in the slideshow
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        // Rotates through the images and loops back to the first one
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+      }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bottom of body -->
+  </body>
+</html>
