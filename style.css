@@ -9,7 +9,7 @@ body{
 
 
 /* start of home style */
-/* start of home style */
+/* start of parralax */
   .parallax {
     padding: 100px; /*puts padding around the edge of the image so content doesn't go to the edge*/
     background-image: url(moose.png);
@@ -24,6 +24,7 @@ margin: 0;
 padding: 10px;
 font-size: 50px;
 text-align: center;
+font-family: sans-serif;
 color: black;
 background-color: rgba(255, 255, 255, 0.5);
 
@@ -31,8 +32,7 @@ background-color: rgba(255, 255, 255, 0.5);
 }
 
 
-
-  .scrollover {
+    .scrollover {
     padding: 100px;
     background-color: pink;
     height: 1000px;
@@ -45,7 +45,7 @@ background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 100px;
   }
-
+/* end of parralax */
 
 
   /* start of nav bar */
@@ -100,16 +100,7 @@ background-color: rgba(255, 255, 255, 0.5);
     display: block;
   }
 
-
-
-
-
-
-
-  /* end of nav bar */
-
-
-
+    /* end of nav bar */
 }
 
 
@@ -123,6 +114,7 @@ background-color: rgba(255, 255, 255, 0.5);
 
 
 
+/* start of minimizeing */
 
 /* media reseptive */
 @media screen and (min-width: 400px) {
@@ -190,9 +182,7 @@ background-color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 0, 0, 0.5);
 
 }
-
-/* end of home style */
-
+/* end of minimizeing */
 /* end of home style */
 
 
