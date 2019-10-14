@@ -290,10 +290,277 @@ img {
 
 
 /* start of contact us style */
+tml{
+  background-image: url("jack.png");
+}
+
+/* end style for all pages */
+
+/* start home page styling */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+<
+
+
+/* start our story styling */
+
+
+/* end our story styling */
+
+
+/* start sponsor styling */
+
+
+/* end sponsor styling */
+
+
+/* start contact us styling  */
 body{
-background-color: white;
-font-size: 175%
+background-color: black;
+font-family: "comic sans MS";
+color: #17202A;
+
 }
-body{ background-image: "photo.jpg"
+
+
+
+.parallax {
+  padding: 100px; /*puts padding around the edge of the image so content doesn't go to the edge*/
+  background-image: url('stormbackground.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
+
+.scrollover {
+  padding: 100px;
+  background-color: pink;
+  height: 1000px;
+}
+
+.parallaxtext {
+  margin:0;
+  padding: 10px; /*puts padding around the text*/
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+  background-color: rgba(255, 255, 255, .5); /*The .5 at the end makes the background see-through.
+  Try different values instead of the .5 to see how that changes the effect*/
+}
+
+.scrollovertext {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+
+
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  padding: 100px; /*puts padding around the edge of the image so content doesn't go to the edge*/
+  background-image: url('stormbackground.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.scrollover {
+  padding: 100px;
+  background-color: pink;
+  height: 1000px;
+}
+
+.parallaxtext {
+  margin:0;
+  padding: 10px; /*puts padding around the text*/
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  background-color: rgba(242, 196, 227); /*The .5 at the end makes the background see-through.
+  background-color: rgba; /*The .5 at the end makes the background see-through.; /*The .5 at the end makes the background see-through.
+  Try different values instead of the .5 to see how that changes the effect*/
+}
+
+.scrollovertext {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+
+  ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+  }
+
+  li.links{
+    display: inline;
+    padding-right: 10%;
+    font-size: 50px;
+  float: left;
+
+
+
+  }
+
+
+
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+  img {
+    width: 50px;
+    height: auto;
+  }
+h1.email{
+background-color: rgba(242, 196, 227);
+font-size: 100%
+}
+
+h1.parallaxtext{
+font-size: 100%
+
+
+}
+
+/* end contact us styling */
+
+/* mobile responsive */
+
+@media screen and (min-width: 400px) {
+ h1.email{
+   font-size: 50%;
+ }
+ .parallaxtext a{
+   font-size: 20%;
+ }
+}
+
+@media screen and (min-width: 800px) {
+  body{
+    font-size: 500%;
+  }
+}
+
+h1.parallaxtext{
+font-size: 100%
+
+
+}
+}
+
+@media screen and (min-width: 1000px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
 /* end of contact us style */
