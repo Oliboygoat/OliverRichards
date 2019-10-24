@@ -6,28 +6,51 @@
     <link rel="stylesheet" href="style.css"
     <title></title>
   </head>
-  <body>
-    <html>
-    <html>
-<body background="photo.jpg">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <body background="photo.jpg"> -->
 <body>
 <!-- start of contact info -->
-<ul class="nav">
-  <li class="links"><a href="kidflips.html" target="_blank"><img class="navbarpicture" src="jack.png"</a></li>
-  <li class="links"><a href="kidflips.html" target="_blank">Our Story</a></li>
-  <li class="links"><a href="kidflips.html" target="_blank">Sponsors</a></li>
-</ul>
+<div class="navBar" id="Topnav" >
 
 
+  <a href="kidflips.html" target="_blank"><img class="navbarpicture" src="jack.png"</a>
+  <a href="kidflips.html" target="_blank">Our Story</a>
+  <a href="kidflips.html" target="_blank">Sponsors</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
+
+</div>
+
+<!-- start of parralex text -->
 
 <div class="parallax">
   <p class="parallaxtext">contact us:</p>
   <p class="parallaxtext">Kenna Littlefield</p>
   <p class="parallaxtext">541-977-1122</p>
-    <p class="parallaxtext">contact information: <a href="mailto:Kdlittlefield324@gmail.com">kdlittlefield324@gmail.com</a>.</p></p>
+  <p class="parallaxtext">contact information: <a href="mailto:Kdlittlefield324@gmail.com">kdlittlefield324@gmail.com</a>.</p></p>
+  <p class="parallaxtext">To register or if you have any questions please call Kenna Littlefield at 541-977-1122
+  Or email at <a href="mailto:Kdlittlefield324@gmail.com">kdlittlefield324@gmail.com</a>.</p></p>
 </div>
 
 
+<!-- end of parralax text -->
+
+
+<script>
+function myFunction() {
+   var x = document.getElementById("Topnav");
+   if (x.className === "navBar") {
+     x.className += " responsive";
+   } else{
+    x.className = "navBar";
+}
+
+}
+</script>
 
 
 </body>
+
+</html>
