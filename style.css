@@ -348,6 +348,207 @@ li.dropdown {
 
 
 /* start sponsor styling */
+  body,
+html {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:pink;
+}
+
+h1.title{
+  font-size: 400%;
+  padding: 5px;
+  background-color:pink;
+  text-align: left;
+}
+
+h1.description{
+background-color:pink;
+font-size: 25px;
+}
+
+ul.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li.links{
+  display: inline;
+  padding: 0;
+  font-size: 175%;
+  text-align: center;
+}
+
+
+
+.parallax {
+  padding: 100px; /*puts padding around the edge of the image so content doesn't go to the edge*/
+  background-image: url("FLIPSlogo.png");
+  height: 100%;
+  /* background-size: cover; */
+  /* background-attachment: fixed;
+  background-position: center; */
+}
+
+.scrollover {
+  padding: 100px;
+  background-color:pink;
+  height: 1000px;
+  font-size: 50px;
+}
+
+.parallaxtext {
+  margin:0;
+  padding: 5px; /*puts padding around the text*/
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  background-color:pink; /*The .5 at the end makes the background see-through.
+  Try different values instead of the .5 to see how that changes the effect*/
+
+}
+
+
+.scrollovertext {
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  background-color: rgba(253, 254, 254);
+}
+
+}
+/*background color of the nav bar  */
+.navBar{
+  overflow: hidden;
+  background-color: #94fc03
+}
+.navBar a{
+  float: left;
+  display: block;
+  color: #353bb5;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 175%;
+}
+.navBar .icon{
+  display: none;
+}
+script{
+  font-size: 500%
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* mobile responsive */
+@@media screen and (min-width: 200px)
+  img.pps-logo-hidpi.jpg {
+    padding-left: 20%;
+  }
+  img.ooa-gymnastics-logo-final-silver-web-1.png {
+    padding-left: 20%;
+  }
+
+
+  @@media screen and (min-width: 400px){
+    img.pps-logo-hidpi.jpg {
+      padding-left: 20%;
+    }
+    img.ooa-gymnastics-logo-final-silver-web-1.png {
+      padding-left: 20%;
+
+    }@@media screen and (min-width: 600px){
+      img.pps-logo-hidpi.jpg {
+        padding-left: 20%;
+      }
+      img.ooa-gymnastics-logo-final-silver-web-1.png {
+        padding-left: 20%;
+
+      }@@media screen and (min-width: 800px){
+        img.pps-logo-hidpi.jpg {
+          padding-left: 20%;
+        }
+        img.ooa-gymnastics-logo-final-silver-web-1.png {
+          padding-left: 20%;
+        }
+        @@media screen and (min-width: 1000px){
+          img.pps-logo-hidpi.jpg {
+            padding-left: 20%;
+          }
+          img.ooa-gymnastics-logo-final-silver-web-1.png {
+            padding-left: 20%;
+          }
+          @media screen and (min-width: 600px) {
+          .navBar a:not(:first-child) {display: none;}
+          .navBar a.icon {
+           float: right;
+           display: block;
+          }
+          .navBar.responsive {position: relative;}
+          .navbar.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .navBar.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+          }
+
+          }
+
 
 
 /* end sponsor styling */
